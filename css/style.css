@@ -128,7 +128,7 @@ a:link.contact-link, a:hover.contact-link, a:visited.contact-link, a:active.cont
 
 @media only screen and (min-width: 480px) {
   html {
-    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily640x832.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -138,21 +138,21 @@ a:link.contact-link, a:hover.contact-link, a:visited.contact-link, a:active.cont
     text-align: left; }
 
   html {
-    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily1968x800.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; } }
 @media only screen and (min-width: 768px) and (orientation: portrait) {
   html {
-    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+    background: url("http://cch5ng.github.io/portfolio-n/assets/carolineGranycomeEleFamily.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; } }
 @media only screen and (min-width: 768px) {
   html {
-    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+    background: url("http://cch5ng.github.io/portfolio-n/assets/carolineGranycomeEleFamily.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

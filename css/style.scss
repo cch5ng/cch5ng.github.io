@@ -1,8 +1,6 @@
 //css/style.sass
 
 //vars
-//$img-url: url(http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png);
-//$cover: cover;
 $font-heading: Arial, Helvetica, sans-serif;
 
 
@@ -17,11 +15,6 @@ $font-heading: Arial, Helvetica, sans-serif;
 
 html {
 	@include cover-background('http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png');
-
-	// -webkit-background-size: cover;
-	// -moz-background-size: cover;
-	// -o-background-size: cover;
-	// background-size: cover;
 }
 
 body {
@@ -177,12 +170,7 @@ a:link.contact-link, a:hover.contact-link, a:visited.contact-link, a:active.cont
 @media only screen and (min-width: 480px) {
 
 	html {
-		@include cover-background('http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png');
-
-		// -webkit-background-size: cover;
-		// -moz-background-size: cover;
-		// -o-background-size: cover;
-		// background-size: cover;
+		@include cover-background('http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily640x832.jpg');
 	}
 }
 
@@ -193,36 +181,21 @@ a:link.contact-link, a:hover.contact-link, a:visited.contact-link, a:active.cont
 	}
 
 	html {
-		@include cover-background('http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png');
-
-		// -webkit-background-size: cover;
-		// -moz-background-size: cover;
-		// -o-background-size: cover;
-		// background-size: cover;
+		@include cover-background('http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily1968x800.jpg');
 	}
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) {
 
 	html {
-		@include cover-background('http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png');
-
-		// -webkit-background-size: cover;
-		// -moz-background-size: cover;
-		// -o-background-size: cover;
-		// background-size: cover;
+		@include cover-background('http://cch5ng.github.io/portfolio-n/assets/carolineGranycomeEleFamily.jpg');
 	}
 }
 
 @media only screen and (min-width: 768px) {
 
 	html {
-		@include cover-background('http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png');
-
-		// -webkit-background-size: cover;
-		// -moz-background-size: cover;
-		// -o-background-size: cover;
-		// background-size: cover;
+		@include cover-background('http://cch5ng.github.io/portfolio-n/assets/carolineGranycomeEleFamily.jpg');
 	}
 
 	.navbar-nav {
@@ -244,9 +217,9 @@ a:link.contact-link, a:hover.contact-link, a:visited.contact-link, a:active.cont
 		opacity: 1.0;
 	}
 
-h4 {
-	font-size: 1.85em;
-}
+	h4 {
+		font-size: 1.85em;
+	}
 
 	.navbar-nav {
 		margin-left: 55%;
