@@ -1,241 +1,183 @@
 html {
-	background: url(http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	/*background-color: #d6f7ff;*/
-}
+  background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 body {
-	font-family: 'Averia Serif Libre', cursive;
-	background-color: transparent;
-}
+  font-family: 'Averia Serif Libre', cursive;
+  background-color: transparent; }
 
 .logo {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1.5em;
-}
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em; }
 
 header {
-	height: 550px;
-	margin-top: 40px;
-}
+  height: 550px;
+  margin-top: 40px; }
 
 h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 15px;
-	font-weight: 500;
-	font-size: 2.5em;
-	opacity: 1.0;
-	padding-top: 51px;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 2.5em;
+  opacity: 1.0;
+  padding-top: 51px; }
 
 h2 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 500;
-	font-size: 2.15em;
-	opacity: 1.0;
-	padding-top: 51px;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 2.15em;
+  opacity: 1.0;
+  padding-top: 51px; }
 
 h3, h4 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 400;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400; }
 
 h4 {
-	font-size: 1.65em;
-}
+  font-size: 1.65em; }
 
 .white {
-	color: #fff;
-}
+  color: #fff; }
 
 .body, .jumbotron p {
-	font-size: 1.35em;
-}
+  font-size: 1.35em; }
 
 .jumbotron {
-	background-color: rgba(238, 238, 238, 0.5);
-}
+  background-color: rgba(238, 238, 238, 0.5); }
 
 footer {
-	width: 100%;
-	height: 100px;
-	background-color: #222;
+  width: 100%;
+  height: 100px;
+  background-color: #222;
   border-color: #080808;
-  border-width: 0 0 1px;
-}
+  border-width: 0 0 1px; }
 
 .footer {
-	padding-top: 15px;
-	text-align: center;
-	font-size: 1.15em;
-	color: #fff;
-}
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1.15em;
+  color: #fff; }
 
 .bkgd-smoke {
-	background-color: rgba(238, 238, 238, 0.5);
-	padding-bottom: 15px;
-}
+  background-color: rgba(238, 238, 238, 0.5);
+  padding-bottom: 15px; }
 
 .round {
-	border-radius: 10px;
-}
+  border-radius: 10px; }
 
 .ion-ios-heart {
-	color: #752610;
-}
+  color: #752610; }
 
 a:link, a:hover, a:visited, a:active {
-	color: #4D823A; /*#5D7FC0;*/
-}
+  color: #4D823A;
+  /*#5D7FC0;*/ }
 
 a:link.work, a:hover.work, a:visited.work, a:active.work {
-	color: #333;
-}
+  color: #333; }
 
 a:link.src, a:hover.src, a:visited.src, a:active.src {
-	color: #295327;
-}
+  color: #295327; }
 
 a:link.logo, a:hover.logo, a:visited.logo, a:active.logo {
-	color: #19E3D9;
-}
+  color: #19E3D9; }
 
 a:link.contact-link, a:hover.contact-link, a:visited.contact-link, a:active.contact-link {
-	color: #26411d;
-}
+  color: #26411d; }
 
 .soc-list {
-	list-style-type: none;
-}
+  list-style-type: none; }
 
 .soc {
-	margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .soc-media {
-	width: 64px;
-	height: 64px;
-	border-radius: 10px;
-	float: left;
-	margin: 0 6% 30px;
-}
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  float: left;
+  margin: 0 6% 30px; }
 
 .contact {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 500;
-	font-size: 1.5em;
-	text-align: center;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  text-align: center; }
 
 .round {
-	border-radius: 10px;
-}
+  border-radius: 10px; }
 
 .twitter-btn {
-	background-color: #00aced;
-}
+  background-color: #00aced; }
 
 .linkedin-btn {
-	background-color: #007FB1;
-}
+  background-color: #007FB1; }
 
 .github-btn {
-	background-color: #4183C4;
-}
+  background-color: #4183C4; }
 
 .wordpress-btn {
-	background-color: #21759B;
-}
+  background-color: #21759B; }
 
 /* overwriting bootstrap */
 .navbar-nav {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.15em;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.15em; }
 
 @media only screen and (min-width: 480px) {
-
-	html {
-		background: url(http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily640x832.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-}
-
+  html {
+    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 @media only screen and (min-width: 640px) {
+  .contact {
+    text-align: left; }
 
-	.contact {
-		text-align: left;
-	}
-
-	html {
-		background: url(http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily1968x800.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-}
-
+  html {
+    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 @media only screen and (min-width: 768px) and (orientation: portrait) {
-
-	html {
-		background: url(http://cch5ng.github.io/portfolio-n/assets/carolineGranycomeEleFamily.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-}
-
+  html {
+    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 @media only screen and (min-width: 768px) {
+  html {
+    background: url("http://cch5ng.github.io/portfolio-n/assets/GranycomeEleFamily480x750.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
 
-	html {
-		background: url(http://cch5ng.github.io/portfolio-n/assets/carolineGranycomeEleFamily.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	.navbar-nav {
-		margin-left: 45%;
-	}
-}
-
+  .navbar-nav {
+    margin-left: 45%; } }
 @media only screen and (min-width: 992px) {
+  h1 {
+    font-weight: 700;
+    font-size: 3.0em;
+    opacity: 1.0; }
 
-	h1 {
-		font-weight: 700;
-		font-size: 3.0em;
-		opacity: 1.0;
-	}
+  h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+    opacity: 1.0; }
 
-	h2 {
-		font-weight: 700;
-		font-size: 2.5em;
-		opacity: 1.0;
-	}
+  h4 {
+    font-size: 1.85em; }
 
-h4 {
-	font-size: 1.85em;
-}
-
-	.navbar-nav {
-		margin-left: 55%;
-	}
-
-}
-
+  .navbar-nav {
+    margin-left: 55%; } }
 @media only screen and (min-width: 1200px) {
+  .navbar-nav {
+    margin-left: 60%; } }
 
-	.navbar-nav {
-		margin-left: 60%;
-	}
-}
+/*# sourceMappingURL=style.css.map */
